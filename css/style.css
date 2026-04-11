@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 40px 140px 140px 40px;
+    grid-template-areas: 
+    'hd hd hd hd' 
+    'na na na na' 
+    'su su su su' 
+    'sn sn as as' 
+    'ft ft ft ft';
+}
+header {
+    grid-area: hd;
+    background-color: bisque;
+}
+nav{
+    grid-area: na;
+    background-color: orange;
+}
+.section-uppe {
+    grid-area: su;
+    background-color: blue;
+}
+.section-under{
+    grid-area: sn;
+    background-color: blueviolet;
+}
+aside{
+    grid-area: as;
+    background-color: brown;
+}
+footer{
+    grid-area: ft;
+    background-color: lawngreen;
+}
