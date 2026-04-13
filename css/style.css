@@ -18,24 +18,30 @@ body {
 
 header {
     grid-area: hd;
+    background-color: blue;
 }
 
 nav {
     grid-area: na;
+    background-color: green;
 }
 
 .section-uppe {
     grid-area: su;
+    background-color: red;
 }
 
 .section-under {
     grid-area: sn;
+    background-color: yellow;
 }
 
 aside {
     grid-area: as;
+    background-color: orange;
 }
 
 footer {
     grid-area: ft;
+    background-color: purple;
 }
