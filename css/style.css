@@ -87,6 +87,11 @@ nav a {
     font-size: 14px;
 }
 
+.booking-knapp:hover {
+    background-color: white;
+    color: white;
+}
+
 .section-under {
     grid-area: sn;
     background-color: #1a1a2e;
@@ -141,6 +146,11 @@ aside p {
     text-decoration: none;
     font-size: 14px;
     text-align: center;
+}
+
+.booking-guldknapp:hover {
+    background-color: white;
+    color: white;
 }
 
 footer {
