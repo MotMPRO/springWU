@@ -50,16 +50,20 @@ nav a {
 
 .section-uppe {
     grid-area: su;
-    background-color: #0f3460;
+    background-image: url(/img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     padding: 30px;
 }
 
 .start-text {
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 30px;
     color: white;
     max-width: 500px;
+    border-radius: 4px;
 }
 
 .start-text h2 {
