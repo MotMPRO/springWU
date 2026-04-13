@@ -51,22 +51,92 @@ nav a {
 .section-uppe {
     grid-area: su;
     background-color: #0f3460;
-    color: white;
+    display: flex;
+    align-items: center;
     padding: 30px;
+}
+
+.start-text {
+    padding: 30px;
+    color: white;
+    max-width: 500px;
+}
+
+.start-text h2 {
+    margin: 0 0 15px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #d4af37;
+}
+
+.start-text p {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.booking-knapp {
+    background-color: #d4af37;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .section-under {
     grid-area: sn;
     background-color: #1a1a2e;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 30px;
+}
+
+.section-under h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #d4af37;
+    margin: 0 0 15px 0;
+}
+
+.section-under p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
 }
 
 aside {
     grid-area: as;
     background-color: #16213e;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 30px;
+    gap: 15px;
+}
+
+aside h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: #d4af37;
+    margin: 0;
+}
+
+aside p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.booking-guldknapp {
+    background-color: #d4af37;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
 }
 
 footer {
