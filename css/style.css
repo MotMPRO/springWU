@@ -223,6 +223,46 @@ footer {
     grid-area: il;
     background-color: #0f3460;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow-y: auto;
+}
+
+.island-card {
+    display: flex;
+    gap: 20px;
+    background-color: #16213e;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.island-card img {
+    width: 200px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.island-info {
+    padding: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.island-info h3 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #d4af37;
+}
+
+.island-info p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .islands-aside {
@@ -230,4 +270,7 @@ footer {
     background-color: #16213e;
     color: white;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
