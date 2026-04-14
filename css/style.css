@@ -191,9 +191,32 @@ footer {
 
 .islands-bild {
     grid-area: ib;
-    background-color: #0f3460;
-    color: white;
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
     padding: 30px;
+}
+
+.islands-bild-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    color: white;
+    border-radius: 4px;
+}
+
+.islands-bild-text h2 {
+    margin: 0 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #d4af37;
+}
+
+.islands-bild-text p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 .islands-lista {
