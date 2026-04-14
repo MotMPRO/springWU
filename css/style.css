@@ -5,8 +5,8 @@ body {
 }
 
 #container {
-    display: grid;
     min-height: 100vh;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 40px 1fr 1fr 40px;
     grid-template-areas:
@@ -46,11 +46,16 @@ nav a {
     color: #d4af37;
     text-decoration: none;
     font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    color: white;
 }
 
 .section-uppe {
     grid-area: su;
-    background-image: url(/img/bg1.jpg);
+    background-image: url('../img/bg1.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -85,11 +90,12 @@ nav a {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 14px;
+    letter-spacing: 1px;
 }
 
 .booking-knapp:hover {
-    background-color: white;
-    color: white;
+    background-color: #b8962e;
+    color: #1a1a2e;
 }
 
 .section-under {
@@ -112,7 +118,14 @@ nav a {
 .section-under p {
     font-size: 15px;
     line-height: 1.6;
+    margin: 0 0 15px 0;
+}
+
+.section-under ul {
     margin: 0;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 2;
 }
 
 aside {
@@ -149,8 +162,8 @@ aside p {
 }
 
 .booking-guldknapp:hover {
-    background-color: white;
-    color: white;
+    background-color: #b8962e;
+    color: #1a1a2e;
 }
 
 footer {
@@ -162,3 +175,20 @@ footer {
     justify-content: center;
     font-size: 13px;
 }
+
+#container-islands {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 40px 180px 1fr 40px;
+    grid-template-areas:
+        'hd hd hd hd'
+        'na na na na'
+        'ib ib ib ib'
+        'il il il as'
+        'ft ft ft ft';
+}
+
+.islands-bild { grid-area: ib; background-color: blue; }
+.islands-lista { grid-area: il; background-color: green; }
+.islands-aside { grid-area: as; background-color: orange; }
