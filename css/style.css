@@ -189,6 +189,22 @@ footer {
         'ft ft ft ft';
 }
 
-.islands-bild { grid-area: ib; background-color: blue; }
-.islands-lista { grid-area: il; background-color: green; }
-.islands-aside { grid-area: as; background-color: orange; }
+.islands-bild {
+    grid-area: ib;
+    background-color: #0f3460;
+    color: white;
+    padding: 30px;
+}
+
+.islands-lista {
+    grid-area: il;
+    background-color: #0f3460;
+    padding: 30px;
+}
+
+.islands-aside {
+    grid-area: as;
+    background-color: #16213e;
+    color: white;
+    padding: 25px;
+}
