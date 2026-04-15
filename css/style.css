@@ -2,10 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    height: 100vh;
 }
 
 #container {
-    min-height: 100vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 40px 1fr 1fr 40px;
@@ -55,7 +57,7 @@ nav a:hover {
 
 .section-uppe {
     grid-area: su;
-    background-image: url('../img/bg1.jpg');
+    background-image: url('/img/bg1.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -91,6 +93,8 @@ nav a:hover {
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 1px;
+    display: block;
+    max-width: 150px;
 }
 
 .booking-knapp:hover {
@@ -177,7 +181,7 @@ footer {
 }
 
 #container-islands {
-    min-height: 100vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 40px 180px 1fr 40px;
@@ -191,7 +195,7 @@ footer {
 
 .islands-bild {
     grid-area: ib;
-    background-image: url('../img/bg2.jpg');
+    background-image: url('/img/bg2.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -222,11 +226,10 @@ footer {
 .islands-lista {
     grid-area: il;
     background-color: #0f3460;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    overflow-y: auto;
 }
 
 .island-card {
@@ -238,7 +241,7 @@ footer {
 }
 
 .island-card img {
-    width: 200px;
+    width: 160px;
     height: 140px;
     object-fit: cover;
 }
@@ -273,7 +276,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    overflow-y: auto;
 }
 
 .islands-aside h2 {
