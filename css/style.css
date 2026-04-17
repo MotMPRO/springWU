@@ -395,6 +395,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 
 .contact-form label {
@@ -458,4 +459,26 @@ footer {
     font-size: 14px;
     line-height: 1.6;
     margin: 0;
+}
+
+.contact-aside h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #d4af37;
+    margin: 0;
+}
+
+.contact-aside ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.contact-form input::placeholder {
+    color: #888;
+}
+
+.contact-form textarea::placeholder {
+    color: #888;
 }
