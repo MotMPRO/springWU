@@ -374,7 +374,7 @@ footer {
     line-height: 1.6;
 }
 
-.contact-fom {
+.contact-form {
     grid-area: cf;
     background-color: #1a1a2e;
     color: white;
@@ -384,14 +384,14 @@ footer {
     justify-content: center;
 }
 
-.contact-fom h2 {
+.contact-form h2 {
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     color: #d4af37;
     margin: 0 0 15px 0;
 }
 
-.contact-fom form {
+.contact-form form {
     display: flex;
     flex-direction: column;
     gap: 10px;
