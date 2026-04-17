@@ -340,7 +340,7 @@ footer {
         'hd hd hd hd'
         'na na na na'
         'cb cb cb cb'
-        'cf cf cf cf'
+        'cf cf cf as'
         'ft ft ft ft';
 }
 
@@ -435,4 +435,27 @@ footer {
 
 .contact-form button:hover {
     background-color: #b8962e;
+}
+
+.contact-aside {
+    grid-area: as;
+    background-color: #16213e;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-aside h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #d4af37;
+    margin: 0;
+}
+
+.contact-aside p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
 }
