@@ -95,6 +95,8 @@ nav a:hover {
     letter-spacing: 1px;
     display: block;
     max-width: 150px;
+    border-radius: 15px;
+    text-align: center;
 }
 
 .booking-knapp:hover {
@@ -163,9 +165,26 @@ aside p {
     text-decoration: none;
     font-size: 14px;
     text-align: center;
+    border-radius: 15px;
 }
 
 .booking-guldknapp:hover {
+    background-color: #b8962e;
+    color: #1a1a2e;
+}
+
+.booking-guldknapp-home {
+    background-color: #d4af37;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 15px;
+    width: 25%;
+}
+
+.booking-guldknapp-home:hover {
     background-color: #b8962e;
     color: #1a1a2e;
 }
@@ -310,4 +329,16 @@ footer {
     padding-left: 18px;
     font-size: 13px;
     line-height: 2;
+}
+
+#container-contact {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 40px 1fr 40px;
+    grid-template-areas:
+        'hd hd hd hd'
+        'na na na na'
+        'mn mn mn mn'
+        'ft ft ft ft';
 }
