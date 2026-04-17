@@ -340,7 +340,7 @@ footer {
         'hd hd hd hd'
         'na na na na'
         'cb cb cb cb'
-        'mn mn mn mn'
+        'cf cf cf cf'
         'ft ft ft ft';
 }
 
@@ -420,4 +420,19 @@ footer {
     color: white;
     height: 80px;
     resize: none;
+}
+
+.contact-form button {
+    background-color: #d4af37;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    max-width: 150px;
+}
+
+.contact-form button:hover {
+    background-color: #b8962e;
 }
