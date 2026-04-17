@@ -335,10 +335,41 @@ footer {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 60px 40px 1fr 40px;
+    grid-template-rows: 60px 40px 180px 1fr 40px;
     grid-template-areas:
         'hd hd hd hd'
         'na na na na'
+        'cb cb cb cb'
         'mn mn mn mn'
         'ft ft ft ft';
+}
+
+.contact-bild {
+    grid-area: cb;
+    background-image: url('/img/nbg1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.contact-bild-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    color: white;
+    border-radius: 4px;
+}
+
+.contact-bild-text h2 {
+    margin: 0 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #d4af37;
+}
+
+.contact-bild-text p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
 }
