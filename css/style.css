@@ -525,3 +525,26 @@ footer {
     font-size: 15px;
     line-height: 1.6;
 }
+
+.booking-fomr {
+    grid-area: mn;
+    background-color: #1a1a2e;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.booking-fomr h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #d4af37;
+    margin: 0 0 15px 0;
+}
+
+.booking-fomr form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
