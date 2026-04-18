@@ -492,7 +492,7 @@ footer {
         'hd hd hd hd'
         'na na na na'
         'bb bb bb bb'
-        'mn mn mn mn'
+        'bf bf bf as'
         'ft ft ft ft';
 }
 
@@ -526,8 +526,8 @@ footer {
     line-height: 1.6;
 }
 
-.booking-fomr {
-    grid-area: mn;
+.booking-form {
+    grid-area: bf;
     background-color: #1a1a2e;
     color: white;
     padding: 30px;
@@ -536,15 +536,90 @@ footer {
     justify-content: center;
 }
 
-.booking-fomr h2 {
+.booking-form h2 {
     font-family: 'Playfair Display', serif;
     font-size: 24px;
     color: #d4af37;
     margin: 0 0 15px 0;
 }
 
-.booking-fomr form {
+.booking-form form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-width: 500px;
+}
+
+.booking-form label {
+    font-size: 14px;
+    color: #d4af37;
+}
+
+.booking-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #16213e;
+    color: white;
+}
+
+.booking-form select {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #16213e;
+    color: white;
+}
+
+.booking-form button {
+    background-color: #d4af37;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    max-width: 150px;
+}
+
+.booking-form button:hover {
+    background-color: #b8962e;
+}
+
+.booking-aside {
+    grid-area: as;
+    background-color: #16213e;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.booking-aside h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #d4af37;
+    margin: 0;
+}
+
+.booking-aside h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #d4af37;
+    margin: 0;
+}
+
+.booking-aside p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+.booking-aside ul {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 2;
 }
