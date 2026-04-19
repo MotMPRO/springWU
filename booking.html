@@ -18,6 +18,7 @@
             <h1>SunRays Resort</h1>
         </header>
         <nav>
+            <span class="hamburger">☰</span>
             <a href="index.html">Home</a>
             <a href="islands.html">Islands</a>
             <a href="booking.html">Booking</a>
@@ -32,23 +33,23 @@
         <section class="booking-form">
             <h2>Reservation</h2>
             <form>
-                <label>Full Name</label>
-                <input type="text" placeholder="Your name">
-                <label>Email</label>
-                <input type="email" placeholder="Your email">
-                <label>Check-in Date</label>
-                <input type="date">
-                <label>Check-out Date</label>
-                <input type="date">
-                <label>Guests</label>
-                <select>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <label for="checkin">Check-in Date</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <label for="checkout">Check-out Date</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests">
                     <option>1 Guest</option>
                     <option>2 Guests</option>
                     <option>3 Guests</option>
                     <option>4 Guests</option>
                 </select>
-                <label>Island</label>
-                <select>
+                <label for="island">Island</label>
+                <select id="island" name="island">
                     <option>Saint James Island</option>
                     <option>Palm Cove Island</option>
                     <option>Sunset Ridge Island</option>
@@ -77,6 +78,7 @@
             <p>© 2026 SunRays Resort. All rights reserved.</p>
         </footer>
     </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

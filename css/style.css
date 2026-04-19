@@ -616,6 +616,7 @@ footer {
     line-height: 1.6;
     margin: 0;
 }
+
 .booking-aside ul {
     margin: 0;
     padding-left: 18px;
@@ -625,4 +626,132 @@ footer {
 
 .booking-form input::placeholder {
     color: #888;
+}
+
+.hamburger {
+    display: none;
+    color: #d4af37;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav.open a {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    body {
+        overflow: auto;
+        height: auto;
+    }
+
+    #container {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px auto auto auto auto 40px;
+        grid-template-areas:
+            'hd'
+            'na'
+            'su'
+            'sn'
+            'as'
+            'ft';
+    }
+
+    #container-islands {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px auto auto auto auto 40px;
+        grid-template-areas:
+            'hd'
+            'na'
+            'ib'
+            'il'
+            'as'
+            'ft';
+    }
+
+    #container-contact {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px auto auto auto auto 40px;
+        grid-template-areas:
+            'hd'
+            'na'
+            'cb'
+            'cf'
+            'as'
+            'ft';
+    }
+
+    #container-booking {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60px auto auto auto auto 40px;
+        grid-template-areas:
+            'hd'
+            'na'
+            'bb'
+            'bf'
+            'as'
+            'ft';
+    }
+
+    .island-card {
+        flex-direction: column;
+    }
+
+    .island-card img {
+        width: 100%;
+        height: 120px;
+    }
+
+    .start-text h2 {
+        font-size: 24px;
+    }
+
+    .start-text p {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 0 15px;
+    }
+
+    nav {
+        padding: 0 15px;
+    }
+
+    .section-uppe,
+    .islands-bild,
+    .contact-bild,
+    .booking-bild {
+        padding: 15px;
+    }
+
+    .booking-form {
+        padding: 20px;
+    }
+
+    .booking-form form {
+        gap: 8px;
+    }
+
+    .booking-guldknapp-home {
+        width: 50%;
+    }
 }
