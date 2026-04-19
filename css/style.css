@@ -648,10 +648,14 @@ footer {
         display: none;
     }
 
+    nav.open {
+        padding-bottom: 20px;
+    }
+
     nav.open a {
         display: block;
         width: 100%;
-        padding: 5px 0;
+        padding: 8px 0;
     }
 
     body {
